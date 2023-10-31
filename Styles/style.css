@@ -7,7 +7,7 @@ img {
     display: block;
 }
 
-.headimg {
+header img {
     width: 95%;
     height: 300px;
 }
@@ -34,7 +34,6 @@ td {
 }
 
 nav ul {
-    list-style: none;
     padding: 0;
     text-align: center;
     background-color: #f2f2f2;
@@ -55,4 +54,14 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
     color: rgb(48, 100, 89);
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
 }
